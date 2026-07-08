@@ -46,8 +46,6 @@
     "avoidMobs": true,
     "combat": true,
     "beds": false,
-    "chat": true,
-    "console-commands": true
   },
   "combat": {
     "attack-mobs": true,
@@ -63,7 +61,6 @@
     "events": {
       "connect": true,
       "disconnect": true,
-      "chat": false
     }
   },
 }
