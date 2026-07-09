@@ -1,7 +1,7 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "SoloCloudHosting",
+    "username": "AE",
     "password": "",
     "type": "offline"
   },
@@ -26,6 +26,21 @@
       "enabled": true,
       "sneak": true
     },
+    "chat-messages": {
+      "enabled": true,
+      "repeat": true,
+      "repeat-delay": 120,
+      "messages": [
+        "I'm a Aether's slave",
+        "kill villagers",
+        "do'nt goon nigga"
+      ]
+    },
+    "chat-log": true,
+    "auto-reconnect": true,
+    "auto-reconnect-delay": 2000,
+    "max-reconnect-delay": 120000
+  },
   "movement": {
     "enabled": true,
     "circle-walk": {
@@ -46,6 +61,8 @@
     "avoidMobs": true,
     "combat": true,
     "beds": false,
+    "chat": true,
+    "console-commands": true
   },
   "combat": {
     "attack-mobs": true,
@@ -61,6 +78,10 @@
     "events": {
       "connect": true,
       "disconnect": true,
+      "chat": false
     }
   },
+  "chat": {
+    "respond": true
+  }
 }
